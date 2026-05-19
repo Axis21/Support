@@ -1,0 +1,12 @@
+name: Other
+description: Ask a question or share other feedback.
+title: "[Other]: "
+labels: ["other", "needs-triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Message
+      placeholder: What would you like to tell us?
+    validations:
+      required: true
