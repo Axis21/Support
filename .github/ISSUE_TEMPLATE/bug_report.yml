@@ -8,7 +8,7 @@ body:
       value: |
         Thank you for taking the time to report an issue.
 
-        ⚠️ **Before submitting:** Do not include passwords, API keys, access tokens, customer data, or confidential project information.
+        ⚠️ **Public repository:** Anything you submit here can be read by others. Do not include passwords, API keys, access tokens, customer data, or confidential project information.
 
   - type: textarea
     id: description
