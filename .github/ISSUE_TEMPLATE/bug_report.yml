@@ -10,6 +10,8 @@ body:
 
         ⚠️ **Public repository:** Anything you submit here can be read by others. Do not include passwords, API keys, access tokens, customer data, or confidential project information.
 
+        For confidential or account-specific support, please contact us through your usual support channel instead of posting here.
+
   - type: textarea
     id: description
     attributes:
