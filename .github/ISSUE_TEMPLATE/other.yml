@@ -1,12 +1,21 @@
-name: Other
-description: Ask a question or share other feedback.
+name: "💬 Other"
+description: Ask a question or share general feedback.
 title: "[Other]: "
 labels: ["other", "needs-triage"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to contact us.
+
+        ⚠️ **Public repository:** Anything you submit here can be read by others. Do not include passwords, API keys, access tokens, customer data, or confidential project information.
+
+        For confidential or account-specific support, please contact us through your usual support channel instead of posting here.
+
   - type: textarea
     id: description
     attributes:
       label: Message
-      placeholder: What would you like to tell us?
+      description: Please describe your question, feedback, or request.
     validations:
       required: true
