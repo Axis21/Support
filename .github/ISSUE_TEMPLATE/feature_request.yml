@@ -1,12 +1,21 @@
-name: Feature request
-description: Suggest an improvement or new feature.
+name: "💡 Feature request"
+description: Suggest an improvement or new capability for vibration analysis workflows.
 title: "[Feature]: "
 labels: ["feature-request", "needs-triage"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest an improvement.
+
+        ⚠️ **Public repository:** Anything you submit here can be read by others. Do not include passwords, API keys, access tokens, customer data, or confidential project information.
+
+        For confidential or account-specific support, please contact us through your usual support channel instead of posting here.
+
   - type: textarea
     id: description
     attributes:
-      label: Describe the feature
-      placeholder: What would you like Axis21 to do?
+      label: Describe the request
+      description: Please describe the workflow, analysis task, or use case this would support.
     validations:
       required: true
