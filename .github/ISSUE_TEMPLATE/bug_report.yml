@@ -1,5 +1,5 @@
 name: "🐞 Bug report"
-description: Report an issue with Axis21.
+description: Report an issue with the platform.
 title: "[Bug]: "
 labels: ["bug", "needs-triage"]
 body:
@@ -8,12 +8,12 @@ body:
       value: |
         Thank you for taking the time to report an issue.
 
-        Please do not include passwords, API keys, access tokens, customer data, or confidential project information.
+        ⚠️ **Before submitting:** Do not include passwords, API keys, access tokens, customer data, or confidential project information.
 
   - type: textarea
     id: description
     attributes:
       label: Describe the issue
-      description: Please describe what happened, where in Axis21 you noticed it, and what you expected.
+      description: Please describe what happened, where you noticed it, and what you expected.
     validations:
       required: true
